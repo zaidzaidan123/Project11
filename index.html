@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project1</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-header">
         <h1>Project1</h1>
-        
+        <ul class="list-header">
+          <li>Features</li>
+          <li>Solutions</li>
+          <li>Plans</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+        </ul>
+      </nav>
+      <a href="/login" class="login-header">Login</a>
     </header>
-</body>
+    <main class="">
+      <section class="container hero-section">
+        <section class="hero-section-part-one">
+          <h1>Project1 brings all your tasks, teammates, and tools together</h1>
+          <p>Keep everything in the same place—even if your team isn’t.</p>
+          <div>
+            <input type="email" placeholder="Email" />
+            <button>Sign up</button>
+          </div>
+        </section>
+        <section class="hero-section-part-two">
+          <img
+            srcset="
+              //images.ctfassets.net/rz1oowkt5gyp/75rDABL8fyMtNLlUAtBxrg/c5e145977a86c41c47e17c69410c64f7/TrelloUICollage_4x.png?w=1080 2x
+            "
+            src="//images.ctfassets.net/rz1oowkt5gyp/75rDABL8fyMtNLlUAtBxrg/c5e145977a86c41c47e17c69410c64f7/TrelloUICollage_4x.png?w=540"
+            alt="An illustration showing different features of a Trello board"
+            loading="lazy"
+            class="Picture__Image-sc-1wdxyb4-0 eYmxm"
+          />
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
