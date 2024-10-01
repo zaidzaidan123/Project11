@@ -47,7 +47,7 @@
 .hero-section {
   background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180));
   color: white;
-  height: 100vh;
+  height: calc(100vh - 60px);
   display: Flex;
   padding-top: 8rem;
   justify-content: space-between;
@@ -57,6 +57,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+  padding-top:6rem;
 }
 
 .hero-section-part-one h1 {
@@ -91,5 +92,41 @@
   font-size: 1rem;
   padding: 0.7rem 1rem 0.8rem;
   color: rgb(255, 255, 255) !important;
-  margin-left:10px;
+  margin-left: 10px;
+}
+
+/* finish hero section */
+
+.productivity {
+    margin-top: 40px;
+}
+
+.productivity-texts {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width:50%
+}
+
+.productivity-texts p {
+    line-height:1.75
+}
+
+.productivity-cards{
+    display:flex;
+    gap:10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.productivity-card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 30, 66);
+    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+    border-radius: 0.3rem;
+    border: 0px;
+    padding: 1rem 1rem 1rem 1.5rem;
+    text-align: left;
+    border-top:5px solid blue;
 }
