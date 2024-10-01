@@ -57,7 +57,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding-top:6rem;
+  padding-top: 6rem;
 }
 
 .hero-section-part-one h1 {
@@ -98,35 +98,157 @@
 /* finish hero section */
 
 .productivity {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .productivity-texts {
-    display:flex;
-    flex-direction: column;
-    gap:10px;
-    width:50%
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
 }
 
 .productivity-texts p {
-    line-height:1.75
+  line-height: 1.75;
 }
 
-.productivity-cards{
-    display:flex;
-    gap:10px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-
+.productivity-cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.productivity-card{
-    background-color: rgb(255, 255, 255);
-    color: rgb(9, 30, 66);
-    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+.productivity-card {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 30, 66);
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+  border-radius: 0.3rem;
+  border: 0px;
+  padding: 1rem 1rem 1rem 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 5px solid blue;
+}
+
+/* finish productivity */
+
+.workflow .workflow-para {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 0px;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.workflow .workflow-header {
+  /* font-size: 2.25rem; */
+  line-height: 1.33333;
+}
+
+.workflow-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.workflow-card {
+  padding: 1.25rem 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+  border-top: 20px solid orange;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+    background-blend-mode: normal;
+}
+
+.price-header{
+    display:Flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:center;
+    justify-content:center;
+    padding-top: 40px;
+}
+
+.price-header button{
+
     border-radius: 0.3rem;
-    border: 0px;
-    padding: 1rem 1rem 1rem 1.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    background-color: rgb(0, 101, 255);
+    border: 1px solid rgb(0, 101, 255);
+    font-size: 1rem;
+    padding: 0.7rem 1rem 0.8rem;
+    color: rgb(255, 255, 255) !important;
+    width:fit-content;
+}
+
+.price-cards{
+    display:flex;
+    gap: 10px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.price-card{
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem 1rem 0px;
     text-align: left;
-    border-top:5px solid blue;
+    border: 1px solid rgb(223, 225, 230);
+    border: 1px solid rgb(223, 225, 230);
+    flex:1;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.price-card-content{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.price-card button{
+    align-items: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(230, 252, 255);
+    border: 1px solid rgb(0, 184, 217);
+    font-size: 1rem;
+    padding: 0.7rem 1rem 0.8rem;
+    color: rgb(23, 43, 77) !important;
+    width:fit-content;
+    margin-bottom: 10px;
+}
+
+.price-card-content .para-font-light{
+    color: rgb(80, 95, 121);
+    font-size: 0.75rem;
+}
+
+.price-card-content .price-number{
+    font-size:3rem;
+    font-weight:bold;
+}
+.price-card-content .price-cuurency{
+    font-size:1rem;
 }
